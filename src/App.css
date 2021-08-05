@@ -1,3 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+  --bg-dark: #1E2326;
+  --primary-white: #ffffff;
+  --primary-blue: #1A7BB7;
+}
+
+body {
+  font-family:"Roboto Condesed" sans-serif;
+}
 .App {
   color: pink;
+}
+
+/* ----------------------------------------------- */
+/* Navbar */
+.navbar {
+  background-color: var(--bg-dark) !important;
+}
+.navbar-brand {
+  width: 16.25rem;
+  font-size:xx-large;
+  max-width: 17,25rem;
+  pading: 0 !important;
+}
+.navbar-brand > a {
+  color: var(--primary-blue) !important;
+}
+/* Menu Link */
+.nav a.nav-link {
+  font-size: .8rem;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:hover {
+  border-bottom: 0.1875rem solid var(--primary-blue);
+  color: var(--primary-blue) !important;
 }
