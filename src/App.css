@@ -9,6 +9,7 @@
 
 body {
   font-family:"Roboto Condesed", sans-serif;
+  background-color: var(--bg-dark);
 }
 
 /* ----------------------------------------------- */
@@ -17,7 +18,7 @@ nav {
   z-index: 2;
 }
 .navbar {
-  background-color: var(--bg-dark) !important;
+  background-color: transparent !important;
 }
 
 .navbar-brand {
@@ -26,16 +27,16 @@ nav {
   max-width: 17,25rem;
   padding: 0 !important;
 }
-.navbar-brand > a {
+.navbar-brand > span {
   color: var(--primary-blue) !important;
 }
 
-.navbar-toggler:hover {
-  border: none !important;
+.button-toggler {
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
-.navbar-toggler:focus {
-  border: none !important;
-}
+ 
 /* Menu Link */
 .nav a.nav-link {
   font-size: .8rem;
@@ -82,10 +83,22 @@ nav {
 .main-info h1 {
   color: var(--primary-white);
   text-transform: uppercase;
-  padding: 1rem;
-  border: 1px solid var(--primary-white);
+  padding: 1rem 2rem;
+  border: 1px solid #f0f0f0;
+  display: inline-block;
+  margin-bottom: 1.5rem;
 }
-
+.main-info h1:before{
+  background-color: var(--primary-blue) !important;
+}
+.main-info h1:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: -5px;
+  right: -5px;
+}
 /* Typed Text */
 .typed-text {
   font-size: 2rem;
@@ -95,7 +108,7 @@ nav {
 /* Header main offer button */
 .btn-main-offer {
   text-decoration: none;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   color: var(--primary-white);
   background-color: var(--primary-blue);
 }
@@ -116,4 +129,57 @@ nav {
   .particles-canvas {
     display: none;
   }
+}
+
+/* Heder Scrolldown */
+.scroll-down {
+  position: absolute;
+  z-index: 10;
+  bottom: 40px;
+  width: 100%;
+  left: 0;
+}
+.scroll-down a {
+  text-decoration: none;
+}
+.scroll-down .scroll-title {
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--primary-white);
+  text-decoration: none;
+}
+.scroll-down .scroll-title {
+  margin-bottom: 0.5rem;
+}
+.scroll-down .scroll-mouse {
+  border: 2px solid #f0f0f0 !important;
+}
+.scroll-down .scroll-mouse {
+  width: 30px;
+  height: 50px;
+  border-radius: 20px;
+  position: relative;
+  display: inline-block;
+}
+.scroll-down .scroll-mouse .well {
+  background-color: #f0f0f0;
+}
+@keyframes scroll {
+  0% {top: 0;}
+  25% {top: 5px;}
+  50% {top: 10px;}
+  75% {top: 15px;}
+  100% {top: 20px;}
+}
+.scroll-down .scroll-mouse .well {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+  top: 4px;
+  -webkit-animation: scroll 1s linear 0.5s infinite backwards;
+  animation: scroll 2s linear 1s infinite backwards;
 }

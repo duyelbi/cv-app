@@ -1,35 +1,36 @@
 import "./App.css";
 
-import Particles from 'react-particles-js';
+import Particles from "react-particles-js";
 
-import Navbar from "./components/Navbar/Navbar";
 import Header from "./layouts/header/header";
+import Home from "./components/home/home";
 
 function App() {
   return (
     <div className="App">
-      <Particles className="paticles-canvas"
+      <Particles
+        className="particles-cavas"
         params={{
           particles: {
             number: {
-              value: 100,
-              density: {
+              value: 50,
+            },
+            size: {
+              value: 3,
+            },
+          },
+          interactivity: {
+            events: {
+              onhover: {
                 enable: true,
-                value_area: 1000,
+                mode: "repulse",
               },
-              shape: {
-                type: "circle",
-                stroke: {
-                  width:6,
-                  color: "#ffffff"
-                }
-              }
-            }
-          }
+            },
+          },
         }}
       />
-      <Navbar />
       <Header />
+      <Home />
     </div>
   );
 }
