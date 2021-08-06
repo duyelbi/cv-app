@@ -4,13 +4,11 @@
   --bg-dark: #1E2326;
   --primary-white: #ffffff;
   --primary-blue: #1A7BB7;
+  --primary-blue-hover: #1A6FA3;
 }
 
 body {
-  font-family:"Roboto Condesed" sans-serif;
-}
-.App {
-  color: pink;
+  font-family:"Roboto Condesed", sans-serif;
 }
 
 /* ----------------------------------------------- */
@@ -18,6 +16,7 @@ body {
 .navbar {
   background-color: var(--bg-dark) !important;
 }
+
 .navbar-brand {
   width: 16.25rem;
   font-size:xx-large;
@@ -26,6 +25,13 @@ body {
 }
 .navbar-brand > a {
   color: var(--primary-blue) !important;
+}
+
+.navbar-toggler:hover {
+  border: none !important;
+}
+.navbar-toggler:focus {
+  border: none !important;
 }
 /* Menu Link */
 .nav a.nav-link {
@@ -43,4 +49,53 @@ body {
 .navbar-nav > li > a.active, .navbar-nav > li > a:hover {
   border-bottom: 0.1875rem solid var(--primary-blue);
   color: var(--primary-blue) !important;
+}
+
+
+/* ----------------------------------------------- */
+/* Header */
+.header-wraper {
+  position: relative;
+  background-color: var(--bg-dark);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display:flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family:"Roboto Condesed", sans-serif;
+}
+.main-info h1 {
+  color: var(--primary-white);
+  text-transform: uppercase;
+  padding: 1rem;
+  border: 1px solid var(--primary-white);
+}
+
+/* Typed Text */
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+/* Header main offer button */
+.btn-main-offer {
+  text-decoration: none;
+  padding: 0.5rem;
+  color: var(--primary-white);
+  background-color: var(--primary-blue);
+}
+.btn-main-offer:hover {
+  color: var(--primary-white);
+  background-color: var(--primary-blue-hover);
 }
