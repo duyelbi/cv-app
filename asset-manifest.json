@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/cv-app/static/css/main.b91c1545.chunk.css",
-    "main.js": "/cv-app/static/js/main.b84941d9.chunk.js",
-    "main.js.map": "/cv-app/static/js/main.b84941d9.chunk.js.map",
-    "runtime-main.js": "/cv-app/static/js/runtime-main.953e30be.js",
-    "runtime-main.js.map": "/cv-app/static/js/runtime-main.953e30be.js.map",
+    "main.css": "/cv-app/static/css/main.e410b816.chunk.css",
+    "main.js": "/cv-app/static/js/main.52ea694d.chunk.js",
+    "main.js.map": "/cv-app/static/js/main.52ea694d.chunk.js.map",
+    "runtime-main.js": "/cv-app/static/js/runtime-main.ca62e105.js",
+    "runtime-main.js.map": "/cv-app/static/js/runtime-main.ca62e105.js.map",
     "static/css/2.c490997a.chunk.css": "/cv-app/static/css/2.c490997a.chunk.css",
-    "static/js/2.6e815449.chunk.js": "/cv-app/static/js/2.6e815449.chunk.js",
-    "static/js/2.6e815449.chunk.js.map": "/cv-app/static/js/2.6e815449.chunk.js.map",
-    "static/js/3.ddf1331a.chunk.js": "/cv-app/static/js/3.ddf1331a.chunk.js",
-    "static/js/3.ddf1331a.chunk.js.map": "/cv-app/static/js/3.ddf1331a.chunk.js.map",
+    "static/js/2.0df9e1a7.chunk.js": "/cv-app/static/js/2.0df9e1a7.chunk.js",
+    "static/js/2.0df9e1a7.chunk.js.map": "/cv-app/static/js/2.0df9e1a7.chunk.js.map",
+    "static/js/3.a4feb5ab.chunk.js": "/cv-app/static/js/3.a4feb5ab.chunk.js",
+    "static/js/3.a4feb5ab.chunk.js.map": "/cv-app/static/js/3.a4feb5ab.chunk.js.map",
     "index.html": "/cv-app/index.html",
     "static/css/2.c490997a.chunk.css.map": "/cv-app/static/css/2.c490997a.chunk.css.map",
-    "static/css/main.b91c1545.chunk.css.map": "/cv-app/static/css/main.b91c1545.chunk.css.map",
-    "static/js/2.6e815449.chunk.js.LICENSE.txt": "/cv-app/static/js/2.6e815449.chunk.js.LICENSE.txt"
+    "static/css/main.e410b816.chunk.css.map": "/cv-app/static/css/main.e410b816.chunk.css.map",
+    "static/js/2.0df9e1a7.chunk.js.LICENSE.txt": "/cv-app/static/js/2.0df9e1a7.chunk.js.LICENSE.txt",
+    "static/media/avatar.fa58ec91.jpg": "/cv-app/static/media/avatar.fa58ec91.jpg",
+    "static/media/background_2.f47bc72e.jpg": "/cv-app/static/media/background_2.f47bc72e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.953e30be.js",
+    "static/js/runtime-main.ca62e105.js",
     "static/css/2.c490997a.chunk.css",
-    "static/js/2.6e815449.chunk.js",
-    "static/css/main.b91c1545.chunk.css",
-    "static/js/main.b84941d9.chunk.js"
+    "static/js/2.0df9e1a7.chunk.js",
+    "static/css/main.e410b816.chunk.css",
+    "static/js/main.52ea694d.chunk.js"
   ]
 }
