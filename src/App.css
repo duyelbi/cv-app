@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 :root {
   --bg-dark: #1E2326;
@@ -8,113 +8,10 @@
 }
 
 body {
-  font-family:"Roboto Condesed", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
   background-color: var(--bg-dark);
-}
-
-/* ----------------------------------------------- */
-/* Navbar */
-nav {
-  z-index: 2;
-}
-.navbar {
-  background-color: transparent !important;
-}
-
-.navbar-brand {
-  width: 16.25rem;
-  font-size:xx-large;
-  max-width: 17,25rem;
-  padding: 0 !important;
-}
-.navbar-brand > span {
-  color: var(--primary-blue) !important;
-}
-
-.button-toggler {
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
- 
-/* Menu Link */
-.nav a.nav-link {
-  font-size: .8rem;
-  letter-spacing: 0.0375rem;
-  cursor: pointer;
-}
-
-.navbar-nav > li > a {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-  color: var(--primary-white) !important;
-}
-
-.navbar-nav > li > a.active, .navbar-nav > li > a:hover {
-  border-bottom: 0.1875rem solid var(--primary-blue);
-  color: var(--primary-blue) !important;
-}
-
-
-/* ----------------------------------------------- */
-/* Header */
-.header-wraper {
-  position: relative;
-  background-color: var(--bg-dark);
-  background-size: cover;
-  background-position: center;
-  height: 90vh;
-}
-
-.main-info {
-  display:flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family:"Roboto Condesed", sans-serif;
-  z-index: 1;
-}
-.main-info h1 {
-  color: var(--primary-white);
-  text-transform: uppercase;
-  padding: 1rem 2rem;
-  border: 1px solid #f0f0f0;
-  display: inline-block;
-  margin-bottom: 1.5rem;
-}
-.main-info h1:before{
-  background-color: var(--primary-blue) !important;
-}
-.main-info h1:before {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  bottom: -5px;
-  right: -5px;
-}
-/* Typed Text */
-.typed-text {
-  font-size: 2rem;
-  color: var(--primary-white);
-}
-
-/* Header main offer button */
-.btn-main-offer {
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  color: var(--primary-white);
-  background-color: var(--primary-blue);
-}
-.btn-main-offer:hover {
-  color: var(--primary-white);
-  background-color: var(--primary-blue-hover);
 }
 
 /* Particles js */
@@ -131,55 +28,8 @@ nav {
   }
 }
 
-/* Heder Scrolldown */
-.scroll-down {
-  position: absolute;
-  z-index: 10;
-  bottom: 40px;
-  width: 100%;
-  left: 0;
-}
-.scroll-down a {
-  text-decoration: none;
-}
-.scroll-down .scroll-title {
-  font-weight: 500;
-  font-size: 13px;
-  color: var(--primary-white);
-  text-decoration: none;
-}
-.scroll-down .scroll-title {
-  margin-bottom: 0.5rem;
-}
-.scroll-down .scroll-mouse {
-  border: 2px solid #f0f0f0 !important;
-}
-.scroll-down .scroll-mouse {
-  width: 30px;
-  height: 50px;
-  border-radius: 20px;
-  position: relative;
-  display: inline-block;
-}
-.scroll-down .scroll-mouse .well {
-  background-color: #f0f0f0;
-}
-@keyframes scroll {
-  0% {top: 0;}
-  25% {top: 5px;}
-  50% {top: 10px;}
-  75% {top: 15px;}
-  100% {top: 20px;}
-}
-.scroll-down .scroll-mouse .well {
-  position: absolute;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  left: 50%;
-  top: 4px;
-  -webkit-animation: scroll 1s linear 0.5s infinite backwards;
-  animation: scroll 2s linear 1s infinite backwards;
+
+/* gobal */
+.bg_pattern {
+  background-image: url(https://demo.themesuccess.com/templates/rectcv/layouts/assets/images/background_pattern.svg);
 }

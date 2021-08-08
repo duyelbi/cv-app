@@ -2,8 +2,8 @@ import "./App.css";
 
 import Particles from "react-particles-js";
 
-import Header from "./layouts/header/header";
-import Home from "./components/home/home";
+import Header from "./layouts/header/Header";
+import Main from "./components/Main";
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
         }}
       />
       <Header />
-      <Home />
+      <Main />
     </div>
   );
 }

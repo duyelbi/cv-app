@@ -1,6 +1,8 @@
 import React from "react";
 import Typed from "react-typed";
 
+import "./home.css";
+
 function Home() {
   return (
     <section className="header-wraper home d-flex" id="home">

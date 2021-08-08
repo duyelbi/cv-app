@@ -1,0 +1,34 @@
+.section {
+    position: relative;
+    padding: 100px 0px;
+}
+
+.backgound-section {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-box-shadow: inset 0 0 0 2000px rgb(30 35 38 / 70%) !important;
+    box-shadow: inset 0 0 0 2000px rgb(30 35 38 / 70%) !important;
+    -webkit-appearance: none;
+}
+
+@media (max-width: 992px) {
+    .backgound-section {
+        background-attachment: scroll !important;
+    }
+}
+
+.fact-single {
+    line-height: 1.5;
+    color: #f0f0f0;
+}
+
+.fact-icon {
+    color: rgb(26, 123, 183);
+    font-size: 3.5rem;
+}
+.fact-info {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
