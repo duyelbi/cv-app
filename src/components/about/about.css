@@ -1,26 +1,3 @@
-.about {
-    color: #fafafa;
-}
-
-.section-title {
-    position: relative;
-    margin-bottom: 3rem;
-}
-
-.text_background {
-    position: relative;
-    text-transform: uppercase;
-    font-weight: 700;
-    z-index: 2;
-    font-size: 3rem;
-    margin: 3rem 0 1rem;
-}
-
-.heading_background {
-    color: transparent;
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.05);
-}
-
 .avatar-area {
     max-width: 400px;
 }
@@ -58,12 +35,4 @@
     font-weight: 900;
     line-height: 0.1;
     z-index: 1;
-}
-
-
-@media (max-width: 992px) {
-    .heading_background {
-        font-size: 40px;
-        top: -36%;
-    }
 }

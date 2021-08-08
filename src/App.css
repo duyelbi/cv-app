@@ -12,6 +12,7 @@ body {
   font-size: 1rem;
   line-height: 1.7;
   background-color: var(--bg-dark);
+  color: #f0f0f0;
 }
 
 /* Particles js */
@@ -32,4 +33,35 @@ body {
 /* gobal */
 .bg_pattern {
   background-image: url(https://demo.themesuccess.com/templates/rectcv/layouts/assets/images/background_pattern.svg);
+}
+
+.section {
+  position: relative;
+  padding: 100px 0px;
+}
+
+.section-title {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.text_background {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+  z-index: 2;
+  font-size: 3rem;
+  margin: 3rem 0 1rem;
+}
+
+.heading_background {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.05);
+}
+
+@media (max-width: 992px) {
+  .heading_background {
+    font-size: 40px;
+    top: -36%;
+  }
 }

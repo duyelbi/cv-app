@@ -1,0 +1,16 @@
+.btn-video-play {
+    color: rgb(26, 123, 183);
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 20px;
+    background-color: #1E2326;
+}
+
+p {
+    color: #B5B5B5;
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}

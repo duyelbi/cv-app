@@ -1,0 +1,21 @@
+.service-single {
+    background-color: #1E2326;
+    border: 1px solid #31383D;
+}
+
+.service-single h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.service-single p {
+    font-weight: 300;
+    color: #b5b5b5;
+    font-size: 1em;
+}
+
+.service-icon {
+    font-size: 2.5rem;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
