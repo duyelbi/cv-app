@@ -8,6 +8,12 @@
     background-color: #1E2326;
 }
 
+iframe {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
 p {
     color: #B5B5B5;
     font-size: 1rem;

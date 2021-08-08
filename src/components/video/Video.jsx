@@ -22,7 +22,7 @@ const Video = () => {
         style={styles.about_movie}
       >
         <div className="video-area">
-          <a
+          <a 
             href="https://www.youtube.com/watch?v=YjhrligRTbE"
             className="btn-video-play iframe_popup"
           >
