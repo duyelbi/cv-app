@@ -9,6 +9,7 @@ import Portfolio from "./portfolio/Portfolio";
 import Project from "./project/Project";
 import Resume from "./resume/Resume";
 import Client from "./client/Client";
+import Blog from "./blog/Blog";
 
 const Main = () => {
     return (
@@ -22,6 +23,7 @@ const Main = () => {
             <Project />
             <Resume />
             <Client />
+            <Blog />
         </div>
     )
 }
