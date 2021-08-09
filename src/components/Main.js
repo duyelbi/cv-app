@@ -10,6 +10,7 @@ import Project from "./project/Project";
 import Resume from "./resume/Resume";
 import Client from "./client/Client";
 import Blog from "./blog/Blog";
+import Contact from "./contact/Contact";
 
 const Main = () => {
     return (
@@ -24,6 +25,7 @@ const Main = () => {
             <Resume />
             <Client />
             <Blog />
+            <Contact />
         </div>
     )
 }

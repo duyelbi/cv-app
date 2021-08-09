@@ -1,0 +1,82 @@
+.contact {
+    background-color: #252b2f;
+}
+.contact-icon {
+    color: rgb(26, 123, 183);
+    font-size:2.6rem;
+    min-width:50px;
+    padding-right: 2rem;
+}
+
+.contact-details {
+    vertical-align: top;
+}
+
+.contact-details h5 {
+    font-weight: 500;
+    color: #f0f0f0;
+    font-size: 1.375em;
+    margin-bottom: 0;
+}
+
+.contact-details p {
+    color: #f0f0f0;
+    opacity: 1;
+    font-size: 1em;
+}
+
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* form css */
+.form-group {
+    position: relative;
+}
+
+input.form-control {
+    height: 50px;
+}
+
+.form-control {
+    font-size: 1em;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #31383d;
+    boder-radius: 0px;
+    background-color: transparent;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: .9em 1em;
+    color: #f0f0f0;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    border: 1px solid #31383d;
+    color: #f0f0f0;
+}
+
+.form-focused label:focus {
+    background-color: #252b2f;
+    opacity: 1;
+    color: #1a7bb7;
+    -webkit-transition: translateY(-25px);
+    transition: translateY(-25px);
+}
+
+.form-group label {
+    color: #f0f0f0;
+    position: absolute;
+    top: 11px;
+    left: 7px;
+    padding: 0 14px;
+    -webkit-transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+    font-size: 1em;
+    opacity: .6;
+}

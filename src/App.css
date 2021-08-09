@@ -59,12 +59,27 @@ section, div.section {
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.05);
 }
 
+.heading_background {
+  position: absolute;
+  display: block;
+  width: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: 0;
+  font-size: 140px;
+  font-weight: 900;
+  line-height: 0.1;
+  z-index: 1;
+}
+
 @media (max-width: 992px) {
   .heading_background {
     font-size: 40px;
     top: -36%;
   }
 }
+
 
 .btn-outline-primary {
   border: 1px solid rgb(26, 123, 183);
