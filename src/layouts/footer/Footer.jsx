@@ -1,4 +1,13 @@
-import React from 'react'
+import React from 'react';
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faLinkedinIn,
+  faPinterestP,
+  faGit,
+  faTumblr,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
     return (
@@ -11,27 +20,42 @@ const Footer = () => {
                   <ul className="social-icons list-inline mt-5">
                     <li className="list-inline-item">
                       <a href="#">
-                        <i className="fab fa-facebook-f"></i>
+                        <FontAwesomeIcon
+                          icon={faFacebookF}
+                          style={{ color: "fff" }}
+                        />
                       </a>
                     </li>
                     <li className="list-inline-item">
                       <a href="#">
-                        <i className="fab fa-linkedin-in"></i>
+                        <FontAwesomeIcon
+                          icon={faLinkedinIn}
+                          style={{ color: "fff" }}
+                        />
                       </a>
                     </li>
                     <li className="list-inline-item">
                       <a href="#">
-                        <i className="fab fa-pinterest-p"></i>
+                        <FontAwesomeIcon
+                          icon={faPinterestP}
+                          style={{ color: "fff" }}
+                        />
                       </a>
                     </li>
                     <li className="list-inline-item">
                       <a href="#">
-                        <i className="fab fa-git"></i>
+                        <FontAwesomeIcon
+                          icon={faGit}
+                          style={{ color: "fff" }}
+                        />
                       </a>
                     </li>
                     <li className="list-inline-item">
                       <a href="#">
-                        <i className="fab fa-tumblr"></i>
+                        <FontAwesomeIcon
+                          icon={faTumblr}
+                          style={{ color: "fff" }}
+                        />
                       </a>
                     </li>
                   </ul>

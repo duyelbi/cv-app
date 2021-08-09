@@ -9,7 +9,7 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark horizontal_header transparentOnScroll fixed-top">
+    <header className="navbar navbar-expand-lg navbar-dark bg-dark horizontal_header transparentOnScroll fixed-top">
       <div className="container">
         <a className="navbar-brand logo" href="#">
           Rect<span>CV</span>
@@ -65,7 +65,7 @@ const Header = () => {
           </ul>
         </div>
       </div>
-    </nav>
+    </header>
   );
 };
 

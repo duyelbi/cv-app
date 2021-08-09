@@ -5,6 +5,10 @@
     transition: none;
 }
 
+.header-ins.transparent_header {
+    background-color: transparent;
+}
+
 /* .header-ins {
     background-color: #1e2326;
     padding: 17px 0px;
@@ -61,4 +65,8 @@ nav {
 
 .button-toggler {
     background: transparent;
+}
+
+.button-toggler:focus {
+    outline: none;
 }

@@ -1,0 +1,30 @@
+.owl-stage {
+    transform: translate3d(-532px, 0px, 0px);
+    transition: all 1s ease 0s;
+    width: 931px;
+}
+
+.testimonial-box {
+    border: 2px solid #1e2326;
+    line-height: 23.5px;
+    background-color: #1e2326;
+}
+
+.testimonial_icon {
+    color: rgb(26, 123, 183);
+    font-size: 3rem;
+    padding-right: 2rem;
+}
+
+.author_picture {
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.author_info h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+}

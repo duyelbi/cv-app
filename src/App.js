@@ -3,6 +3,7 @@ import "./App.css";
 import Particles from "react-particles-js";
 
 import Header from "./layouts/header/Header";
+import Footer from "./layouts/footer/Footer";
 import Main from "./components/Main";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       />
       <Header />
       <Main />
+      <Footer />
     </div>
   );
 }

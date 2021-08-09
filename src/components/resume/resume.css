@@ -1,0 +1,17 @@
+.progress-info span {
+    font-size: 16px;
+}
+
+.progress {
+    background-color: #252b2f;
+    height: 6px;
+    border-radius: 0;
+    padding: 2px;
+}
+
+.progress-bar {
+    background-color: #1a7bb7;
+    width: 0;
+    -webkit-transition: all 11.5s ease-in-out;
+    transition: all 11.5s ease-in-out;
+}

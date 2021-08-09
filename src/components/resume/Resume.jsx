@@ -1,18 +1,17 @@
 import React from 'react'
 
+import "./resume.css";
+
 const Resume = () => {
     return (
       <div>
-        <section className="resume background_gpattern" id="resume">
+        <section className="resume bg_pattern" id="resume">
           <div className="container d-flex flex-column justify-content-between h-100 ">
             <div className="section-title flex-grow-1">
               <div className="row">
                 <div className="col-lg-12">
                   <div className="text-left">
-                    <h2
-                      data-aos="heading-show"
-                      className="text_background aos-init aos-animate"
-                    >
+                    <h2 className="text_background">
                       My Experience
                       <span className="heading_background">Resume</span>
                     </h2>
@@ -92,7 +91,7 @@ const Resume = () => {
                           aria-valuenow="75"
                           aria-valuemin="0"
                           aria-valuemax="100"
-                          style="width: 75%;"
+                          style={{ width: "75%" }}
                         ></div>
                       </div>
                     </div>
@@ -113,7 +112,7 @@ const Resume = () => {
                           aria-valuenow="90"
                           aria-valuemin="0"
                           aria-valuemax="100"
-                          style="width: 90%;"
+                          style={{ width: "90%" }}
                         ></div>
                       </div>
                     </div>
@@ -134,7 +133,7 @@ const Resume = () => {
                           aria-valuenow="95"
                           aria-valuemin="0"
                           aria-valuemax="100"
-                          style="width: 95%;"
+                          style={{ width: "95%" }}
                         ></div>
                       </div>
                     </div>
@@ -155,7 +154,7 @@ const Resume = () => {
                           aria-valuenow="85"
                           aria-valuemin="0"
                           aria-valuemax="100"
-                          style="width: 85%;"
+                          style={{ width: "85%" }}
                         ></div>
                       </div>
                     </div>
@@ -169,4 +168,4 @@ const Resume = () => {
     );
 }
 
-export default Resume
+export default Resume;

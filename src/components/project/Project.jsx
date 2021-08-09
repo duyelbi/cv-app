@@ -1,11 +1,18 @@
-import React from 'react'
+import React from 'react';
+
+import "./project.css";
+
+import background_3 from "../../assets/images/background_3.jpg";
+
+const styles = {
+  project: {
+    backgroundImage: `url(${background_3})`,
+  },
+};
 
 const Project = () => {
     return (
-      <div
-        className="section project backgound-section"
-        style="background-image: url(./assets/images/background_3.jpg)"
-      >
+      <div className="section project backgound-section" style={styles.project}>
         <div className="container">
           <div className="row">
             <div className="col-12">
