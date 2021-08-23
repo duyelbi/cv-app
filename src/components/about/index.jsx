@@ -9,7 +9,7 @@ import {
   faTumblr,
 } from "@fortawesome/free-brands-svg-icons";
 
-import "./about.css";
+import "./index.css";
 
 import avatar from "../../assets/images/avatar.jpg";
 

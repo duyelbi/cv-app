@@ -21,40 +21,40 @@ const Footer = () => {
                     <li className="list-inline-item">
                       <a href="#">
                         <FontAwesomeIcon
+                          className="faIcon"
                           icon={faFacebookF}
-                          style={{ color: "fff" }}
                         />
                       </a>
                     </li>
                     <li className="list-inline-item">
                       <a href="#">
                         <FontAwesomeIcon
+                          className="faIcon"
                           icon={faLinkedinIn}
-                          style={{ color: "fff" }}
                         />
                       </a>
                     </li>
                     <li className="list-inline-item">
                       <a href="#">
                         <FontAwesomeIcon
+                          className="faIcon"
                           icon={faPinterestP}
-                          style={{ color: "fff" }}
                         />
                       </a>
                     </li>
                     <li className="list-inline-item">
                       <a href="#">
                         <FontAwesomeIcon
+                          className="faIcon"
                           icon={faGit}
-                          style={{ color: "fff" }}
                         />
                       </a>
                     </li>
                     <li className="list-inline-item">
                       <a href="#">
                         <FontAwesomeIcon
+                          className="faIcon"
                           icon={faTumblr}
-                          style={{ color: "fff" }}
                         />
                       </a>
                     </li>

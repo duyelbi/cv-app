@@ -101,3 +101,7 @@ section, div.section {
 .img-fluid {
   width: 100%;
 }
+
+.faIcon {
+  color: var(--primary-white);
+}

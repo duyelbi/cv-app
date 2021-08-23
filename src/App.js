@@ -2,9 +2,9 @@ import "./App.css";
 
 import Particles from "react-particles-js";
 
-import Header from "./layouts/header/Header";
-import Footer from "./layouts/footer/Footer";
-import Main from "./components/Main";
+import Header from "./layouts/header";
+import Footer from "./layouts/footer";
+import Main from "./components";
 
 function App() {
   return (

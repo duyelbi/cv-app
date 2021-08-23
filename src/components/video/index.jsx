@@ -5,7 +5,7 @@ import {
   faPlay,
 } from "@fortawesome/free-solid-svg-icons";
 
-import "./video.css";
+import "./index.css";
 
 import Background_video from "../../assets/images/background_video.jpg";
 

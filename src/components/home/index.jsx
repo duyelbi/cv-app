@@ -1,7 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 
-import "./home.css";
+import "./index.css";
 
 function Home() {
   return (

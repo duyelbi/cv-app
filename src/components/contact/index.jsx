@@ -1,6 +1,6 @@
 import React from 'react';
 
-import "./contact.css";
+import "./index.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faMobileAlt, faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons";

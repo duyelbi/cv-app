@@ -10,7 +10,7 @@ import {
   faRocket,
 } from "@fortawesome/free-solid-svg-icons";
 
-import "./services.css";
+import "./index.css";
 
 const Services = () => {
     return (

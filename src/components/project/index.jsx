@@ -1,6 +1,6 @@
 import React from 'react';
 
-import "./project.css";
+import "./index.css";
 
 import background_3 from "../../assets/images/background_3.jpg";
 

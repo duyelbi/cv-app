@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./client.css";
+import "./index.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

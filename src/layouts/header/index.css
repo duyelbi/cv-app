@@ -70,3 +70,7 @@ nav {
 .button-toggler:focus {
     outline: none;
 }
+
+.faIcon {
+    color: var(--primary-white);
+}
