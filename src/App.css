@@ -3,7 +3,7 @@
 :root {
   --bg-dark: #1E2326;
   --primary-white: #ffffff;
-  --primary-blue: #1A7BB7;
+  --primary-blue: rgb(26, 123, 183);
   --primary-blue-hover: #1A6FA3;
 }
 
@@ -82,8 +82,9 @@ section, div.section {
 
 
 .btn-outline-primary {
-  border: 1px solid rgb(26, 123, 183);
-  color: rgb(26, 123, 183);
+  border: 1px solid var(--primary-blue);
+;
+  color: var(--primary-blue);
   background: transparent;
   font-weight: 500;
 }

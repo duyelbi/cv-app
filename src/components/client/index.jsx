@@ -5,7 +5,6 @@ import "./index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faQuoteLeft,
-
 } from "@fortawesome/free-solid-svg-icons";
 
 import background_3 from "../../assets/images/background_3.jpg";

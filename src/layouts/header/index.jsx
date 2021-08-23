@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header className="navbar navbar-expand-lg navbar-dark bg-dark horizontal_header transparentOnScroll fixed-top">
       <div className="container">
-        <a className="navbar-brand logo" href="#">
+        <a className="navbar-brand logo" href="/">
           Rect<span>CV</span>
         </a>
         <button
@@ -28,7 +28,7 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="/">
                 Home
               </a>
             </li>

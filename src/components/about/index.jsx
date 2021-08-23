@@ -37,7 +37,7 @@ const About = () => {
                   src={avatar}
                   width="400"
                   height="550"
-                  alt
+                  alt=""
                   className="img-fluid mx-auto"
                 />
               </div>
@@ -79,58 +79,55 @@ const About = () => {
               <div className="button_and_social my-4">
                 <div className="row justify-content-center align-items-center">
                   <div className="col-xl-6">
-                    <a href="#" class="btn btn-outline-primary btn-lg">
+                    <a href="/" class="btn btn-outline-primary btn-lg">
                       Download CV
                     </a>
                   </div>
                   <div className="col-xl-6">
                     <ul class="social-icons list-inline mt-4 mt-xl-0">
                       <li class="list-inline-item">
-                        <a href="#">
+                        <a href="/">
                           <i>
                             <FontAwesomeIcon
+                              className="faIcon"
                               icon={faFacebookF}
-                              style={{ color: "fff" }}
                             />
                           </i>
                         </a>
                       </li>
                       <li class="list-inline-item">
-                        <a href="#">
+                        <a href="/">
                           <i>
                             <FontAwesomeIcon
                               icon={faLinkedinIn}
-                              style={{ color: "fff" }}
+                              className="faIcon"
                             />
                           </i>
                         </a>
                       </li>
                       <li class="list-inline-item">
-                        <a href="#">
+                        <a href="/">
                           <i>
                             <FontAwesomeIcon
                               icon={faPinterestP}
-                              style={{ color: "fff" }}
+                              className="faIcon"
                             />
                           </i>
                         </a>
                       </li>
                       <li class="list-inline-item">
-                        <a href="#">
+                        <a href="/">
                           <i>
-                            <FontAwesomeIcon
-                              icon={faGit}
-                              style={{ color: "fff" }}
-                            />
+                            <FontAwesomeIcon icon={faGit} className="faIcon" />
                           </i>
                         </a>
                       </li>
                       <li class="list-inline-item">
-                        <a href="#">
+                        <a href="/">
                           <i>
                             <FontAwesomeIcon
                               icon={faTumblr}
-                              style={{ color: "fff" }}
+                              className="faIcon"
                             />
                           </i>
                         </a>

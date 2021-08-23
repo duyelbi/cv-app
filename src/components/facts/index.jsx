@@ -25,7 +25,7 @@ const Facts = () => {
             <div className="col-lg-3 col-sm-6 mt-3 mt-lg-0">
               <div className="fact-single text-center">
                 <div className="fact-icon">
-                  <FontAwesomeIcon icon={faHistory} style={{ color: "fff" }} />
+                  <FontAwesomeIcon icon={faHistory} className="faIcon" />
                 </div>
                 <div className="fact-info">
                   <span
@@ -46,7 +46,7 @@ const Facts = () => {
             <div className="col-lg-3 col-sm-6 mt-3 mt-lg-0">
               <div className="fact-single text-center">
                 <div className="fact-icon">
-                  <FontAwesomeIcon icon={faSmile} style={{ color: "fff" }} />
+                  <FontAwesomeIcon icon={faSmile} className="faIcon" />
                 </div>
                 <div className="fact-info">
                   <span
@@ -67,7 +67,7 @@ const Facts = () => {
             <div className="col-lg-3 col-sm-6 mt-3 mt-lg-0">
               <div className="fact-single text-center">
                 <div className="fact-icon">
-                  <FontAwesomeIcon icon={faMagic} style={{ color: "fff" }} />
+                  <FontAwesomeIcon icon={faMagic} className="faIcon" />
                 </div>
                 <div className="fact-info">
                   <span
@@ -87,7 +87,7 @@ const Facts = () => {
             <div className="col-lg-3 col-sm-6 mt-3 mt-lg-0">
               <div className="fact-single text-center">
                 <div className="fact-icon">
-                  <FontAwesomeIcon icon={faDownload} style={{ color: "fff" }} />
+                  <FontAwesomeIcon icon={faDownload} className="faIcon" />
                 </div>
                 <div className="fact-info">
                   <span

@@ -19,7 +19,7 @@ const Footer = () => {
                 <div className="text-center">
                   <ul className="social-icons list-inline mt-5">
                     <li className="list-inline-item">
-                      <a href="#">
+                      <a href="/">
                         <FontAwesomeIcon
                           className="faIcon"
                           icon={faFacebookF}
@@ -27,7 +27,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li className="list-inline-item">
-                      <a href="#">
+                      <a href="/">
                         <FontAwesomeIcon
                           className="faIcon"
                           icon={faLinkedinIn}
@@ -35,7 +35,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li className="list-inline-item">
-                      <a href="#">
+                      <a href="/">
                         <FontAwesomeIcon
                           className="faIcon"
                           icon={faPinterestP}
@@ -43,7 +43,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li className="list-inline-item">
-                      <a href="#">
+                      <a href="/">
                         <FontAwesomeIcon
                           className="faIcon"
                           icon={faGit}
@@ -51,7 +51,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li className="list-inline-item">
-                      <a href="#">
+                      <a href="/">
                         <FontAwesomeIcon
                           className="faIcon"
                           icon={faTumblr}

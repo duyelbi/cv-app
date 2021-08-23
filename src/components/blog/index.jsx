@@ -59,7 +59,7 @@ const Blog = () => {
                           <FontAwesomeIcon icon={faUser} />
                         </span>
                         <span className="meta-value">
-                          by <a href="#">Kevin Miller</a>
+                          by <a href="/">Kevin Miller</a>
                         </span>
                       </div>
                     </div>
@@ -100,7 +100,7 @@ const Blog = () => {
                           <FontAwesomeIcon icon={faUser} />
                         </span>
                         <span className="meta-value">
-                          by <a href="">Kevin Miller</a>
+                          by <a href="/">Kevin Miller</a>
                         </span>
                       </div>
                     </div>
@@ -141,7 +141,7 @@ const Blog = () => {
                           <FontAwesomeIcon icon={faUser} />
                         </span>
                         <span className="meta-value">
-                          by <a href="#">Kevin Miller</a>
+                          by <a href="/">Kevin Miller</a>
                         </span>
                       </div>
                     </div>

@@ -20,10 +20,7 @@ const Services = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="text-left">
-                  <h2
-                    data-aos="heading-show"
-                    className="text_background"
-                  >
+                  <h2 data-aos="heading-show" className="text_background">
                     What I Do
                     <span className="heading_background">Services</span>
                   </h2>
@@ -42,8 +39,8 @@ const Services = () => {
                 <div className="service-single text-center p-5">
                   <div className="service-icon">
                     <FontAwesomeIcon
+                      className="faIconServices"
                       icon={faDatabase}
-                      style={{ color: "rgb(26, 123, 183)" }}
                     />
                   </div>
                   <h3 className="my-3">Development</h3>
@@ -58,7 +55,7 @@ const Services = () => {
                   <div className="service-icon">
                     <FontAwesomeIcon
                       icon={faTabletAlt}
-                      style={{ color: "rgb(26, 123, 183)" }}
+                      className="faIconServices"
                     />
                   </div>
                   <h3 className="my-3">Responsive</h3>
@@ -73,7 +70,7 @@ const Services = () => {
                   <div className="service-icon">
                     <FontAwesomeIcon
                       icon={faMugHot}
-                      style={{ color: "rgb(26, 123, 183)" }}
+                      className="faIconServices"
                     />
                   </div>
                   <h3 className="my-3">UI/UX Design</h3>
@@ -88,7 +85,7 @@ const Services = () => {
                   <div className="service-icon">
                     <FontAwesomeIcon
                       icon={faLayerGroup}
-                      style={{ color: "rgb(26, 123, 183)" }}
+                      className="faIconServices"
                     />
                   </div>
                   <h3 className="my-3">User Friendly</h3>
@@ -103,7 +100,7 @@ const Services = () => {
                   <div className="service-icon">
                     <FontAwesomeIcon
                       icon={faHeart}
-                      style={{ color: "rgb(26, 123, 183)" }}
+                      className="faIconServices"
                     />
                   </div>
                   <h3 className="my-3">Lovely</h3>
@@ -118,7 +115,7 @@ const Services = () => {
                   <div className="service-icon">
                     <FontAwesomeIcon
                       icon={faRocket}
-                      style={{ color: "rgb(26, 123, 183)" }}
+                      className="faIconServices"
                     />
                   </div>
                   <h3 className="my-3">Bootstrap 5</h3>

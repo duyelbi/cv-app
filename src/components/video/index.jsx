@@ -28,7 +28,7 @@ const Video = () => {
           >
             <FontAwesomeIcon
               icon={faPlay}
-              style={{ color: "rgb(26, 123, 183)" }}
+              className="faIconVideo"
             />
           </a>
           <p className="mt-3">Play Video</p>

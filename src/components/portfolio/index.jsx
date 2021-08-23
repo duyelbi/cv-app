@@ -128,8 +128,7 @@ const Portfolio = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 mb-2 mt-4 backenddevelopment">
                 <div className="portfolio-item ">
                   <a
-                    href="https://themeforest.net/"
-                    target="_blank"
+                    href="/"
                     className="portfolio-single"
                   >
                     <div className="item-box">
@@ -218,10 +217,10 @@ const Portfolio = () => {
 
             <div className="row">
               <div className="col-12 text-center mt-5">
-                <a href="#" className="btn btn-outline-primary">
+                <a href="/" className="btn btn-outline-primary">
                   <span>
                     <FontAwesomeIcon icon={faDribbble} />
-                  </span>{" "}
+                  </span>
                   See More
                 </a>
               </div>

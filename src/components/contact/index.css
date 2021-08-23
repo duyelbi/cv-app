@@ -2,7 +2,7 @@
     background-color: #252b2f;
 }
 .contact-icon {
-    color: rgb(26, 123, 183);
+    color: var(--primary-blue);
     font-size:2.6rem;
     min-width:50px;
     padding-right: 2rem;
@@ -63,7 +63,7 @@ input.form-control {
 .form-focused label:focus {
     background-color: #252b2f;
     opacity: 1;
-    color: #1a7bb7;
+    color: var(--primary-blue);
     -webkit-transition: translateY(-25px);
     transition: translateY(-25px);
 }

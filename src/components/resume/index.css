@@ -10,7 +10,7 @@
 }
 
 .progress-bar {
-    background-color: #1a7bb7;
+    background-color: var(--primary-blue);
     width: 0;
     -webkit-transition: all 11.5s ease-in-out;
     transition: all 11.5s ease-in-out;

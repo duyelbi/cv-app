@@ -29,7 +29,7 @@ h3 {
 }
 
 span:not(.meta-value, .heading_background) {
-    color: rgb(23, 123, 183);
+    color: var(--primary-blue);
     opacity: 1;
     margin-right: 0.5rem;
 }

@@ -1,5 +1,5 @@
 .btn-video-play {
-    color: rgb(26, 123, 183);
+    color: var(--primary-blue);
     display: inline-block;
     width: 70px;
     height: 70px;
@@ -19,4 +19,8 @@ p {
     font-size: 1rem;
     margin-top: 0;
     margin-bottom: 1rem;
+}
+
+.faIconVideo {
+    color: var(--primary-blue);
 }

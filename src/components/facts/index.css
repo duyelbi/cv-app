@@ -20,7 +20,7 @@
 }
 
 .fact-icon {
-    color: rgb(26, 123, 183);
+    color: var(--primary-blue);
     font-size: 3.5rem;
 }
 .fact-info {
