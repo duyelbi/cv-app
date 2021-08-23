@@ -1,0 +1,19 @@
+.scrollToTop {
+    text-align: center;
+  position: fixed;
+  bottom: 25px;
+  height: 45px;
+  width: 45px;
+  z-index: 10000;
+  right: 30px;
+  font-size: 1.2em;
+  background-color: #2c3236;
+  color: #f0f0f0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  line-height: 45px;
+}
+
+.scrollToTop:hover {
+  color: var(--primary-blue) !important;
+}

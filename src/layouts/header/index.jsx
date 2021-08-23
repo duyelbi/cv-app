@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 // import react-fontawesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,8 +8,26 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./index.css";
 
 const Header = () => {
+  const [navbar, setNavbar] = useState(false);
+  
+  const changeBackground = () => {
+    if (window.scrollY >= 85) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  }
+
+  window.addEventListener('scroll', changeBackground)
+
   return (
-    <header className="navbar navbar-expand-lg navbar-dark bg-dark horizontal_header transparentOnScroll fixed-top">
+    <header
+      className={
+        navbar
+          ? "navbar active navbar-expand-lg navbar-dark bg-dark horizontal_header transparentOnScroll fixed-top"
+          : "navbar navbar-expand-lg navbar-dark bg-dark horizontal_header transparentOnScroll fixed-top"
+      }
+    >
       <div className="container">
         <a className="navbar-brand logo" href="/">
           Rect<span>CV</span>
@@ -28,7 +46,7 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/">
+              <a className="nav-link active" aria-current="page" href="/#">
                 Home
               </a>
             </li>

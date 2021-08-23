@@ -25,6 +25,11 @@ nav {
 
 .navbar {
     background-color: transparent !important;
+    height: 85px;
+}
+
+.navbar.active {
+    background-color: var(--bg-dark) !important;
 }
 
 .navbar-brand {
