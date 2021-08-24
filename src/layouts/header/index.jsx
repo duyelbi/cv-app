@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
+import Scrollspy from "react-scrollspy";
+
 // css
 import "./index.css";
 
@@ -44,9 +46,21 @@ const Header = () => {
           <FontAwesomeIcon className="faIcon" icon={faBars} />
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto">
+          <Scrollspy
+            items={[
+              "home",
+              "about",
+              "service",
+              "portfolio",
+              "resume",
+              "blog",
+              "contact",
+            ]}
+            currentClassName="is-current"
+            className="navbar-nav ms-auto"
+          >
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/#">
+              <a className="nav-link" aria-current="page" href="/#">
                 Home
               </a>
             </li>
@@ -80,7 +94,7 @@ const Header = () => {
                 Contact
               </a>
             </li>
-          </ul>
+          </Scrollspy>
         </div>
       </div>
     </header>

@@ -75,3 +75,13 @@ nav {
 .button-toggler:focus {
     outline: none;
 }
+
+.is-current {
+  border-bottom: 0.1875rem solid var(--primary-blue);
+    color: var(--primary-blue) !important;
+}
+
+.navbar-nav.is-current > li > a {
+    border-bottom: 0.1875rem solid var(--primary-blue);
+    color: var(--primary-blue) !important;
+}
